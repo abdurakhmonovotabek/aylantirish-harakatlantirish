@@ -1,0 +1,27 @@
+.box{
+    color: brown;
+    border: solid 1px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 250px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transition: transform 5s ease-in-out;
+    
+  }
+   h1{
+    transition: 5s ease;
+   } 
+   
+
+ .box:hover h1{
+   color: gold;
+   transform: scale(1.5);
+   transform: rotateY(360deg);
+ }
+ .box:hover{
+  
+   cursor:crosshair;
+ }
